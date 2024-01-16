@@ -1,9 +1,7 @@
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import Home from '../Screens/Home';
 import { useSelector } from 'react-redux';
-import Profile from '../Screens/Profile';
 import Signup from '../Screens/Signup';
 import LoginScreen from '../Screens/LoginScreen';
 import DrawerNavigator from './DrowerNavigation';
